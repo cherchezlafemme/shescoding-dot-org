@@ -106,12 +106,49 @@ $blue: #00A0BE;
     width: 200px;
 }
 
+.past-contributor {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.past-contributor-section {
+    padding: 100px 0;
+    background: $blue;
+}
+
+.past-contributor-section-title {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.past-contributor-name {
+    color: $black;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.past-contributor-title {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+}
+
 .tooltips .team-member-title {
     color: grey;
     padding-bottom: 10px;
 }
 
 .tooltips .advisor-title {
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.tooltips .past-contributor-title {
     color: grey;
     padding-bottom: 10px;
 }
@@ -144,6 +181,12 @@ div.advisor .the-tooltip {
     border: 3px solid $green;
 }
 
+div.past-contributor .the-tooltip {
+    color: $black;
+    background: white;
+    border: 3px solid $green;
+}
+
 div.tooltips .the-tooltip:before {
   content: '';
   position: absolute;
@@ -160,6 +203,10 @@ div.advisor .the-tooltip:before {
     border-bottom: 12px solid $green;
 }
 
+div.past-contributor .the-tooltip:before {
+    border-bottom: 12px solid $green;
+}
+
 div.tooltips .the-tooltip:after {
   content: '';
   position: absolute;
@@ -173,6 +220,10 @@ div.tooltips .the-tooltip:after {
 }
 
 div.advisor .the-tooltip:after {
+    border-bottom: 8px solid white;
+}
+
+div.past-contributor .the-tooltip:after {
     border-bottom: 8px solid white;
 }
 

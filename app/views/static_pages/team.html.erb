@@ -190,13 +190,28 @@
 </div>
 
 <div class="past-contributor-section">
-    <div class="past-contributor-section-title">Past contributors</div>
+    <div class="past-contributor-section-title">Past Contributors</div>
     <div class="container">
         <div class="row">
             <div class="past-contributor-list">
 
-<!-- FIGURE OUT THE DIVS AND THE COLORS -->
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
+                    <div class="member-container tooltips">
+                        <%= link_to image_tag("team/staci.png", class: "circle"),
+                        "https://www.linkedin.com/pub/staci-hartman/12/147/6a4", target: "_blank" %>
+                        <div class="past-contributor-name">Staci Hartman</div>
+                        <div class="past-contributor-title">Producer, CODE: Debugging the Gender Gap</div>
+                        <div class="the-tooltip">
+                            <div class="past-contributor-name">Staci Hartman</div>
+                            <div class="past-contributor-title">Producer, CODE: Debugging the Gender Gap</div>
+                            <div class="tooltip-description">
+                                Tapping on a rich background of over 15 years in various marketing roles for high-technology companies including Apple, HP and Tektronix, Staci brings a wealth of innovative thinking and resourcefulness to the development, production and distribution of CODE documentary. In keeping with her interest in social entrepreneurship, Staci continues to focus on building partnerships to serve the greater good. A graduate of UC Berkeley, Staci was Producer and Outreach Coordinator on the Running for Jim documentary.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/anna.png", class: "circle"), "http://www.annabillmaier.com/about/", target: "_blank" %>
                         <div class="past-contributor-name">Anna Billmaier</div>
@@ -211,7 +226,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/steph.png", class: "circle"), "https://www.linkedin.com/in/sgent487", target: "_blank" %>
                         <div class="past-contributor-name">Steph Gentry</div>
@@ -226,7 +241,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/ben.png", class: "circle"), "http://www.linkedin.com/in/bendemboski", target: "_blank" %>
                         <div class="past-contributor-name">Ben Demboski</div>
@@ -241,7 +256,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/calla.png", class: "circle"), "https://www.linkedin.com/in/callapatel", target: "_blank" %>
                         <div class="past-contributor-name">Calla Patel</div>
@@ -256,7 +271,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/deirdre.png", class: "circle"), "https://www.linkedin.com/in/deirdreallison", target: "_blank" %>
                         <div class="past-contributor-name">Deirdre Allison</div>
@@ -271,7 +286,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/kavita.png", class: "circle"), "https://www.linkedin.com/in/kavitasa", target: "_blank" %>
                         <div class="past-contributor-name">Kavita Sachdeva</div>
@@ -286,7 +301,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-3">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/kristina.png", class: "circle"), "https://www.linkedin.com/in/khjrtbrg", target: "_blank" %>
                         <div class="past-contributor-name">Kristina Hjertberg</div>
@@ -301,7 +316,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-6">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/marge.png", class: "circle"), "https://www.linkedin.com/in/margerosen", target: "_blank" %>
                         <div class="past-contributor-name">Marge Rosen</div>
@@ -316,7 +331,7 @@
                     </div>
                 </div>
 
-                <div class="past-contributor col-sm-6 col-xs-12">
+                <div class="past-contributor col-sm-6 col-xs-12 col-md-6">
                     <div class="member-container tooltips">
                         <%= link_to image_tag("team/rachel.png", class: "circle"), "https://www.linkedin.com/in/rmoshier", target: "_blank" %>
                         <div class="past-contributor-name">Rachel Adler</div>
@@ -326,22 +341,6 @@
                             <div class="past-contributor-title">Contributor</div>
                             <div class="tooltip-description">
                                 Rachel is a student at the Ada Developers Academy currently interning at Chef. When she is not coding you can usually find her doing yoga or hanging out with her cats.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="past-contributor col-sm-6 col-xs-12">
-                    <div class="member-container tooltips">
-                        <%= link_to image_tag("team/staci.png", class: "circle"),
-                        "https://www.linkedin.com/pub/staci-hartman/12/147/6a4", target: "_blank" %>
-                        <div class="past-contributor-name">Staci Hartman</div>
-                        <div class="past-contributor-title">Producer, CODE: Debugging the Gender Gap</div>
-                        <div class="the-tooltip">
-                            <div class="past-contributor-name">Staci Hartman</div>
-                            <div class="past-contributor-title">Producer, CODE: Debugging the Gender Gap</div>
-                            <div class="tooltip-description">
-                                Tapping on a rich background of over 15 years in various marketing roles for high-technology companies including Apple, HP and Tektronix, Staci brings a wealth of innovative thinking and resourcefulness to the development, production and distribution of CODE documentary. In keeping with her interest in social entrepreneurship, Staci continues to focus on building partnerships to serve the greater good. A graduate of UC Berkeley, Staci was Producer and Outreach Coordinator on the Running for Jim documentary.
                             </div>
                         </div>
                     </div>
