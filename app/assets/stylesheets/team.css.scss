@@ -6,6 +6,7 @@ $black: #1E2028;
 $red: #DB2C38;
 $green: #83C057;
 $blue: #00A0BE;
+$past_cont_grey: #808080;
 
 .team-section {
     padding: 100px 0;
@@ -113,7 +114,7 @@ $blue: #00A0BE;
 
 .past-contributor-section {
     padding: 100px 0;
-    background: $blue;
+    background: $past_cont_grey;
 }
 
 .past-contributor-section-title {
@@ -149,7 +150,7 @@ $blue: #00A0BE;
 }
 
 .tooltips .past-contributor-title {
-    color: grey;
+    color: $black;
     padding-bottom: 10px;
 }
 
